@@ -1,6 +1,6 @@
 # simple workflow that run manually
 name: Simple Workflow
-on: workflow_dispatch
+on: [push, pull_request]
 
 jobs:
   build:
